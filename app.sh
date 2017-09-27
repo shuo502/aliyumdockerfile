@@ -8,4 +8,4 @@ exec uwsgi \
     --enable-threads \
     --threads=5 \
     --thunder-lock \
-    --module wsgi
+    --file wsgi.py
