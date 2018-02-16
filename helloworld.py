@@ -1,4 +1,5 @@
 from flask import Flask
+from applik import *
 app = Flask(__name__)
 
 
